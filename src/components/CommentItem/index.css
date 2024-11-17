@@ -1,0 +1,137 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.list-style {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.profile {
+  padding: 6px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.comment {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #64748b;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.like-image {
+  height: 20px;
+  width: 20px;
+}
+
+.like {
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 6px;
+}
+
+.blue-like {
+  color: #0284c7;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 6px;
+}
+
+.btn-like {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.name-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.time {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .comment {
+    font-size: 20px;
+  }
+  .like-image {
+    height: 30px;
+    width: 30px;
+  }
+  .like {
+    font-size: 16px;
+  }
+  .blue-like {
+    font-size: 16px;
+  }
+  .time {
+    font-size: 17px;
+  }
+}

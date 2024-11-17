@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  padding: 10px;
+}
+
+.title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.comment-image {
+  height: 150px;
+  width: 200px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.sub-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.input-box {
+  border: 1px #dee0e3 solid;
+  margin: 2px;
+  padding: 3px;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.btn {
+  background-color: #0284c7;
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 8px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 70px;
+  border-radius: 3px;
+}
+
+.comment-count-container {
+  display: flex;
+  align-items: center;
+}
+
+.count-box {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.comment {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #1e293b;
+  margin-left: 5px;
+}
+
+.ul-styles {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding: 30px;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .comment-image {
+    width: 40%;
+    height: 300px;
+    order: 1;
+  }
+  .form-container {
+    width: 50%;
+  }
+  .input-box {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .btn {
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .whole-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .count-box {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+  }
+  .comment {
+    font-size: 20px;
+  }
+}
